@@ -26,6 +26,7 @@ router.post(
   async (req, res, next) => {
     const errors = validationResult(req);
     const { name, email, password } = req.body;
+
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
     }
@@ -43,7 +44,7 @@ router.post(
       //Get user gravatar
       const avatar = gravatar.url(email, {
         s: '200',
-        r: 'pd',
+        r: 'pg',
         d: 'mm'
       });
 
