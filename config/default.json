@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://Isaac:Impaco.19@linkme-yc9kf.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "DontEnveyAny"
+  "jwtSecret": "DontEnveyAny",
+  "githubClientId": "d9891cb30a59b22ae4a2",
+  "githubSecret": "d68db553ee87c9aa566f944e5ab3e1d4d8d56fe5"
 }
